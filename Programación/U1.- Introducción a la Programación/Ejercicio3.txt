@@ -1,0 +1,16 @@
+INICIO
+
+Entero numero
+Imprimir("Introduce un número: ")
+Leer(numero)
+Para i <-- Hasta numero incremento +1 Hacer:
+	Entero contador <-- 0
+	Si numero % i = 0 
+		contador + 1
+
+Si contador = 2
+	Imprimir(numero + " es par.")
+Si no
+	Imprimir(numero + " no es par.")
+
+FIN

@@ -1,0 +1,11 @@
+INICIO
+
+Entero numero
+Imprimir("Introduce un número: ")
+Leer(numero)
+Si <numero % 2 = 0)
+	<imprimir("El número "+numero+" es par")
+Si no
+	<imprimir("El número "+numero+" es impar")
+
+FIN

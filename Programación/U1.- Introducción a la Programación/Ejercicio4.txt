@@ -1,0 +1,12 @@
+INICIO
+
+Entero numero
+Imprimir("Introduce un número: ")
+Si numero <= 1
+	Imprimir("No es un número válido, introduce un número mayor que 1.")
+Si no
+	Leer(numero)
+	suma = numero + 1
+	Imprimir("La suma de 1 + " + numero + " es " + suma)
+	
+

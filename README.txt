@@ -1,1 +1,0 @@
-Repositorio con la recopilación de mi termario de Desarrollo de Aplicaciones Multiplataforma.

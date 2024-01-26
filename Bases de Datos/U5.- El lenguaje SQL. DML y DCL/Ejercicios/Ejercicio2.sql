@@ -1,0 +1,30 @@
+-- Pedidos
+INSERT INTO PEDIDOS (idPedido, idCliente, fecha, total) VALUES (1, 1, '2022-01-03 09:45:00', 549.98);
+INSERT INTO PEDIDOS (idPedido, idCliente, fecha, total) VALUES (2, 2, '2022-03-24 15:45:00', 19.99);
+INSERT INTO PEDIDOS (idPedido, idCliente, fecha, total) VALUES (3, 3, '2022-04-10 20:10:00', 319.98);
+INSERT INTO PEDIDOS (idPedido, idCliente, fecha, total) VALUES (4, 4, '2022-05-01 11:15:00', 99.98);
+INSERT INTO PEDIDOS (idPedido, idCliente, fecha, total) VALUES (5, 4, '2022-12-07 16:00:00', 49.99);
+INSERT INTO PEDIDOS (idPedido, idCliente, fecha, total) VALUES (6, 5, '2023-01-22 18:30:00', 137.94);
+INSERT INTO PEDIDOS (idPedido, idCliente, fecha, total) VALUES (7, 2, '2023-02-09 17:00:00', 49.98);
+INSERT INTO PEDIDOS (idPedido, idCliente, fecha, total) VALUES (8, 2, '2023-02-19 11:10:00', 19.99);
+-- Lineas pedidos
+INSERT INTO LINEAS_PEDIDOS (idLineaPedido, idPedido, idProducto, cantidad, precioUnitario, descuento, total) VALUES (1, 1, 1, 20, 19.99, 11.17, 355.14);
+INSERT INTO LINEAS_PEDIDOS (idLineaPedido, idPedido, idProducto, cantidad, precioUnitario, descuento, total) VALUES (2, 1, 2, 15, 12.99, 0.00, 194.84);
+INSERT INTO LINEAS_PEDIDOS (idLineaPedido, idPedido, idProducto, cantidad, precioUnitario, descuento, total) VALUES (3, 2, 5, 1, 29.99, 33.34, 19.99);
+INSERT INTO LINEAS_PEDIDOS (idLineaPedido, idPedido, idProducto, cantidad, precioUnitario, descuento, total) VALUES (4, 3, 3, 15, 14.99, 22.15, 175.04);
+INSERT INTO LINEAS_PEDIDOS (idLineaPedido, idPedido, idProducto, cantidad, precioUnitario, descuento, total) VALUES (5, 3, 4, 5, 24.99, 0.00, 124.95);
+INSERT INTO LINEAS_PEDIDOS (idLineaPedido, idPedido, idProducto, cantidad, precioUnitario, descuento, total) VALUES (6, 3, 5, 1, 29.99, 33.34, 19.99);
+INSERT INTO LINEAS_PEDIDOS (idLineaPedido, idPedido, idProducto, cantidad, precioUnitario, descuento, total) VALUES (7, 4, 6, 2, 34.99, 28.55, 50);
+INSERT INTO LINEAS_PEDIDOS (idLineaPedido, idPedido, idProducto, cantidad, precioUnitario, descuento, total) VALUES (8, 4, 4, 2, 24.99, 0.00, 49.98);
+INSERT INTO LINEAS_PEDIDOS (idLineaPedido, idPedido, idProducto, cantidad, precioUnitario, descuento, total) VALUES (9, 5, 2, 1, 12.99, 0.00, 12.99);
+INSERT INTO LINEAS_PEDIDOS (idLineaPedido, idPedido, idProducto, cantidad, precioUnitario, descuento, total) VALUES (10, 5, 3, 1, 14.99, 0.00, 14.99);
+INSERT INTO LINEAS_PEDIDOS (idLineaPedido, idPedido, idProducto, cantidad, precioUnitario, descuento, total) VALUES (11, 5, 6, 1, 34.99, 12.98, 22.01);
+INSERT INTO LINEAS_PEDIDOS (idLineaPedido, idPedido, idProducto, cantidad, precioUnitario, descuento, total) VALUES (12, 6, 1, 1, 19.99, 0, 19.99);
+INSERT INTO LINEAS_PEDIDOS (idLineaPedido, idPedido, idProducto, cantidad, precioUnitario, descuento, total) VALUES (13, 6, 2, 1, 12.99, 0, 12.99);
+INSERT INTO LINEAS_PEDIDOS (idLineaPedido, idPedido, idProducto, cantidad, precioUnitario, descuento, total) VALUES (14, 6, 3, 1, 14.99, 0, 14.99);
+INSERT INTO LINEAS_PEDIDOS (idLineaPedido, idPedido, idProducto, cantidad, precioUnitario, descuento, total) VALUES (15, 6, 4, 1, 24.99, 0, 24.99);
+INSERT INTO LINEAS_PEDIDOS (idLineaPedido, idPedido, idProducto, cantidad, precioUnitario, descuento, total) VALUES (16, 6, 5, 1, 29.99, 0, 29.99);
+INSERT INTO LINEAS_PEDIDOS (idLineaPedido, idPedido, idProducto, cantidad, precioUnitario, descuento, total) VALUES (17, 6, 6, 1, 34.99, 0, 34.99);
+INSERT INTO LINEAS_PEDIDOS (idLineaPedido, idPedido, idProducto, cantidad, precioUnitario, descuento, total) VALUES (18, 7, 1, 1, 19.99, 0.00, 19.99);
+INSERT INTO LINEAS_PEDIDOS (idLineaPedido, idPedido, idProducto, cantidad, precioUnitario, descuento, total) VALUES (19, 7, 2, 3, 12.99, 22.50, 29.99);
+INSERT INTO LINEAS_PEDIDOS (idLineaPedido, idPedido, idProducto, cantidad, precioUnitario, descuento, total) VALUES (20, 8, 1, 1, 19.99, 0.00, 19.99);

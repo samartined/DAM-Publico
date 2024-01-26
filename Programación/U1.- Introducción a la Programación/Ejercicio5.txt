@@ -1,0 +1,19 @@
+Inicio
+    Cadena nombre
+    Número radio, area
+    Constante PI = 3.1416
+
+    Función CalcularAreaCirculo(radio)
+        Retornar PI * radio ^ 2
+    FinFunción
+
+    Imprimir "Introduce un nombre:"
+    Leer nombre
+    Imprimir "Hola " + nombre
+
+    Imprimir "Introduce el radio del círculo:"
+    Leer radio
+
+    area = CalcularAreaCirculo(radio)
+    Imprimir "El área del círculo con radio " + radio + " es " + area
+Fin

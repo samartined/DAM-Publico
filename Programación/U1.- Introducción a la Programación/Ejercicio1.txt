@@ -1,0 +1,14 @@
+Inicio
+	
+	cadena palabra1
+	Imprimir("Introduce la primera palabra")
+	cadena palabra2
+	Imprimir("Introduce la segunda palabra")
+	Leer(palabra1)
+	Leer(palabra2)
+	Si <palabra1 = palabra2>
+		<Imprimir("La palabra "+ palabra1 + " y la palabra "+ palabra2 + " son iguales.")>
+	Si no
+		<Imprimir("La palabra "+ palabra1 + " y la palabra "+ palabra2 + " no son iguales.")>
+
+Fin

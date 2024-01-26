@@ -1,0 +1,5 @@
+util/HibernateUtil.class
+com/example/User.class
+com/example/servlets/UserServlet.class
+com/example/model/Cliente.class
+com/example/Main.class
